@@ -1,4 +1,4 @@
-# TrollPlugin
+# TrollPlugin (source code)
 #### <ins>Troll plugin használat:</ins>
 #### /troll freeze <játékos>: **Megfagyasztja a célpontot (KAPCSOLÓ)**
 #### /troll burn <játékos> <másodperc>: **Felgyújtja a célpontot**
