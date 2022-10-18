@@ -1,0 +1,9 @@
+name: TrollPlugin
+main: hu.parancsmester.main
+version: 1.0.0
+api-version: 1.19
+description: Troll plugin
+author: Parancsmester
+commands:
+  troll:
+    description: Troll parancs
