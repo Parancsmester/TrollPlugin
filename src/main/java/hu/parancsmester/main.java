@@ -30,28 +30,15 @@ import org.bukkit.potion.PotionEffectType;
 import org.bukkit.scheduler.BukkitRunnable;
 
 public class main extends JavaPlugin implements Listener {
-	public ArrayList<Player> frozenPlayers = new ArrayList<>();
-	public ArrayList<Player> reverseDamagePlayers = new ArrayList<>();
-	public ArrayList<Player> randomEffectPlayers = new ArrayList<>();
-	public HashMap<Player, Player> rotatingPlayers = new HashMap<>();
-	List<String> arguments = new ArrayList<>();
+	private ArrayList<Player> frozenPlayers = new ArrayList<>();
+	private ArrayList<Player> reverseDamagePlayers = new ArrayList<>();
+	private ArrayList<Player> randomEffectPlayers = new ArrayList<>();
+	private HashMap<Player, Player> rotatingPlayers = new HashMap<>();
+	private List<String> arguments = Arrays.asList("freeze", "burn", "fall", "reversedamage", "sculk", "skeleton", "snow", "levitate", "invrandom", "invdamage", "cube", "rotate", "randomeffect");
 	
 	@Override
 	public void onEnable() {
 		getServer().getPluginManager().registerEvents(this, this);
-		arguments.add("freeze");
-		arguments.add("burn");
-		arguments.add("fall");
-		arguments.add("reversedamage");
-		arguments.add("sculk");
-		arguments.add("skeleton");
-		arguments.add("snow");
-		arguments.add("levitate");
-		arguments.add("invrandom");
-		arguments.add("invdamage");
-		arguments.add("cube");
-		arguments.add("rotate");
-		arguments.add("randomeffect");
 	}
 
 	@EventHandler
