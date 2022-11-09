@@ -12,4 +12,4 @@
 #### /troll invdamage <játékos>: **A célpont eszköztárában minden eszköz tartóssága 1-re változik**
 #### /troll cube <játékos>: **A célpont köré egy vízzel teli obszidiánkocka keletkezik**
 #### /troll rotate <játékos>: **A célpont arra néz, amerre Te nézel (KAPCSOLÓ)**
-#### /troll randomeffect <játékos>: **A célpont véletlenszerű effektet kap 5 másodpecenként 1-60 mp közötti időtartammal, 1-100 közötti erősséggel (KAPCSOLÓ)**
+#### /troll randomeffect <játékos>: **A célpont véletlenszerű effektet kap 5 másodpercenként 1-60 mp közötti időtartammal, 1-100 közötti erősséggel (KAPCSOLÓ)**
